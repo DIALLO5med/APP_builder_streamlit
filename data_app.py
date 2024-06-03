@@ -15,7 +15,7 @@ This app allows you to download scraped data on 'villas', 'terrains' and 'appart
 
 
 # Recuperation du nombre de page maximum du site Coin Afrique (Dynamique)
-i=1
+"""i=1
 while True:
     url = "https://sn.coinafrique.com/?page={}".format(i)
     rep = get(url)
@@ -25,7 +25,7 @@ while True:
         i = int(bsoup.find("li", class_="pagination-number").find_all("a")[-1].text)
     else :
         nbPage = i
-        break
+        break"""
 
 #Nombre de page (statique)
 #nbPage=119
